@@ -18,4 +18,4 @@ Say goodbye to complex calculators! Whether you're a student, professional, or a
 🙌 Contributions:
 We welcome contributions and feedback to make Calc_Man_Calculator even better. Feel free to fork, contribute, or open issues to help us enhance this project together.
 
-Happy Calculating! 🌟 #Kotlin #Calculator #MathOperations #OpenSource"
+#Kotlin #Calculator #MathOperations #OpenSource"

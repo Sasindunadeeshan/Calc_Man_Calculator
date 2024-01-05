@@ -23,19 +23,19 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun numberAction(view: View) {
-        if (view is Button)
-        {
-            if (view.text == ".")
-            {
-                if (canAddDecimal)
+        if (view is Button) {
+            if (view.text == ".") {
+                if (canAddDecimal) {
                     workingsTV.append(view.text)
-                     canAddDecimal=false
-            }
-            else
+                    canAddDecimal = false
+                }
+            } else {
                 workingsTV.append(view.text)
-                canAddOperation=true
+                canAddOperation = true
+            }
         }
     }
+
 
     fun operationAction(view: View) {
         if (view is Button && canAddOperation)
